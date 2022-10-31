@@ -1,12 +1,12 @@
-# the-local-weather
+# portfolio-dforce2055
 # Vue 3 + Typescript + Tailwind Template
 ### Simple Wather App Vue + Typescript + Tailwind + Firebase
-**DEMO:** <a href="https://the-local-weather-2055.web.app/" target="_blank">https://the-local-weather-2055.web.app</a>
+**DEMO:** <a href="https://portfolio-dforce2055-2055.web.app/" target="_blank">https://portfolio-dforce2055-2055.web.app</a>
 
 <div align="center">
   <img 
-    src="./public/favicon.png"
-    alt="The Local Weather App"
+    src="./public/favicon.ico"
+    alt="Portfolio dforce2055"
     width="200px"
     style="max-width:200px;"
   />
