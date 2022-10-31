@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "categories": ["WebApp"],
+    "technologies": ["JavaScript", "Vue2", "Vuetify", "Firebase"],
+    "title": "Oficina Virtual",
+    "description": "Simple Wather App to see and save the preferred locations and consult the weather forecasts of each city.",
+    "github": "",
+    "demoUrl": "https://ovt.telpin.com.ar/ovt/#/",
+    "imgUrl": "images/telpin.png",
+    "visibility": "Private"
+  },
+  {
+    "id": 2,
+    "categories": ["WebApp", "iOS App"],
+    "technologies": ["TypeScript", "Vue3", "Bootstrap v5", "Firebase"],
+    "title": "FansView",
+    "description": "FansView’s new video platform will give fans direct access to interview athletes after games.",
+    "github": "",
+    "demoUrl": "https://app.fansviewapp.com/",
+    "imgUrl": "images/fansview.jpg",
+    "visibility": "Private"
+  },
+  {
+    "id": 3,
+    "categories": ["WebApp"],
+    "technologies": ["TypeScript", "Vue3", "Tailwind", "Firebase"],
+    "title": "The Local Wather",
+    "description": "Simple Wather App to see and save the preferred locations and consult the weather forecasts of each city.",
+    "github": "https://github.com/dforce2055/the-local-weather-2055",
+    "demoUrl": "https://the-local-weather-2055.web.app/",
+    "imgUrl": "https://github.com/dforce2055/the-local-weather-2055/raw/master/public/favicon.png",
+    "visibility": "Public"
+  },
+  {
+    "id": 4,
+    "categories": ["WebApp"],
+    "technologies": ["TypeScript", "React"],
+    "title": "Magic Memory Game",
+    "description": "Simple Magic Memory Game with React.",
+    "github": "https://github.com/dforce2055/magic-memory-game",
+    "demoUrl": "https://magic-memory-game-dforce2055.firebaseapp.com/",
+    "imgUrl": "https://github.com/dforce2055/magic-memory-game/raw/master/magic-memory-game.png",
+    "visibility": "Public"
+  },
+  {
+    "id": 5,
+    "categories": ["WebApp"],
+    "technologies": ["TypeScript", "React"],
+    "title": "Recipes Maganer",
+    "description": "Now you have a place to write and save your favorite recipes.",
+    "github": "https://github.com/dforce2055/recipes-manager",
+    "demoUrl": "https://recipe-manager-dforce2055.web.app/",
+    "imgUrl": "https://github.com/dforce2055/recipes-manager/raw/master/recipe-manager.png",
+    "visibility": "Public"
+  }
+]

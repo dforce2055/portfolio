@@ -1,3 +1,31 @@
+export interface Project {
+  id: number
+  categories: CATEGORY
+  technologies: TECHNOLOGY
+  title: string
+  description: string
+  github: string
+  demoUrl: string
+  imgUrl: string,
+  visibility: VISIBILITY
+}
+
+export enum VISIBILITY {
+  PUBLIC = 'Public',
+  PRIVATE = 'Private',
+}
+export enum CATEGORY {
+  WEB_APP = 'WebApp',
+  MOBILE = 'Mobile',
+  PWA = 'PWA',
+}
+export enum TECHNOLOGY {
+  TYPESCRIPT = 'TypeScript',
+  JAVASCRIPT = 'JavaScript',
+  REACT = 'React',
+  VUE = 'Vue',
+  FIREBASE = 'Firebase',
+}
 export enum ROUTES_PATH {
   CITY = 'city'
 }

@@ -19,5 +19,12 @@
   "projects": "Projects",
   "hi-i-am": "Hi, I'm Diego",
   "skills": "A Front End specialist and Full-Stack Developer",
-  "download-cv": "Download CV"
+  "download-cv": "Download CV",
+  "view-demo": "View Demo",
+  "repository-visibility": "Repository Visibility",
+  "technologies": "Technologies",
+  "about-meself": "About Myself",
+  "who-i-am": "Who I am as a developer?",
+  "bio": "I am passionate about free software, a passion that led me to enjoy my performance as an application design and development analyst.  I like to solve complex problems in a very simple way, the simpler the solution, the more efficient.",
+  "projects-portfolio": "Projects Portfolio"
 }

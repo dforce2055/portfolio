@@ -6,7 +6,8 @@
           to="/"
         >
           <a class="flex title-font font-medium items-center text-gray-700 dark:text-gray-100">
-            <span class="lg:ml-3 text-xl">DforceUI</span>
+            <span class="lg:ml-3 text-xl text-primary">Dforce</span>
+            <span class="text-2xl font-bold pt-1">UI</span>
           </a>
         </router-link>
       </div>
@@ -14,17 +15,17 @@
       <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
         <router-link
           to="/"
+          class="mr-5 cursor-pointer font-bold text-gray-700 hover:text-sky-400 dark:hover:text-sky-400 dark:text-gray-200"
+          exact-active-class="text-primary"
         >
-          <a class="mr-5 cursor-pointer font-bold text-gray-700 hover:text-sky-400 dark:hover:text-sky-400 dark:text-gray-200">
-            {{ $t('projects') }}
-          </a>
+          {{ $t('projects') }}
         </router-link>
         <router-link
           to="/about"
+          class="mr-5 cursor-pointer font-bold text-gray-700 hover:text-sky-400 dark:hover:text-sky-400 dark:text-gray-200"
+          exact-active-class="text-primary"
         >
-          <a class="mr-5 cursor-pointer font-bold text-gray-700 hover:text-sky-400 dark:hover:text-sky-400 dark:text-gray-200">
-            {{ $t('about-me') }}
-          </a>
+          {{ $t('about-me') }}
         </router-link>
       </nav>
       <div class="inline-flex items-center py-1 px-3 rounded text-base lg:mt-4 md:mt-0 gap-3">
@@ -35,57 +36,6 @@
       </div>
     </div>
   </header>
-  <!-- <header class="bg-primary dark:bg-gray-900 shadow-lg">
-    <nav class="container mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 py-6">
-      <router-link
-        to="/"
-      >
-        <div class="flex-1 invisible lg:visible">
-          <a class="btn btn-ghost normal-case text-xl">DforceUI</a>
-        </div>
-      </router-link>
-      <div class="flex gap-2">
-        <div class="form-control invisible lg:visible">
-          <input
-            type="text"
-            placeholder="Search"
-            class="input input-bordered"
-          >
-        </div>
-        <DarkModeSelector
-          :size="5"
-        />
-        <LanguageSelector />
-        <ThemeSelector v-if="false" />
-        <div
-          v-if="false"
-          class="dropdown dropdown-end"
-        >
-          <label
-            tabindex="0"
-            class="btn btn-ghost btn-circle avatar"
-          >
-            <div class="w-10 rounded-full">
-              <img src="https://placeimg.com/80/80/people">
-            </div>
-          </label>
-          <ul
-            tabindex="0"
-            class="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52"
-          >
-            <li>
-              <a class="justify-between">
-                Profile
-                <span class="badge">New</span>
-              </a>
-            </li>
-            <li><a>Settings</a></li>
-            <li><a>Logout</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header> -->
 </template>
 
 <script lang="ts">
@@ -113,3 +63,8 @@ export default defineComponent({
   }
 })
 </script>
+<style lang="scss">
+.router-link-active {
+  color: theme('colors.sky.300') !important;
+}
+</style>
