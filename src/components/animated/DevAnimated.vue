@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 import { defineComponent, ref } from 'vue';
 import { useMotion } from '@vueuse/motion';
 
