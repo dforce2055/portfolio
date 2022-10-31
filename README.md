@@ -1,7 +1,7 @@
 # portfolio-dforce2055
 # Vue 3 + Typescript + Tailwind Template
 ### Simple Wather App Vue + Typescript + Tailwind + Firebase
-**DEMO:** <a href="https://https://portfolio-dforce2055.web.app/" target="_blank">https://https://portfolio-dforce2055.web.app</a>
+**DEMO:** <a href="https://portfolio-dforce2055.web.app/" target="_blank">https://portfolio-dforce2055.web.app/</a>
 
 <div align="center">
   <img 
