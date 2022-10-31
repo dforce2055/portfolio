@@ -30,7 +30,7 @@
       </nav>
       <div class="inline-flex items-center py-1 px-3 rounded text-base lg:mt-4 md:mt-0 gap-3">
         <DarkModeSelector
-          :size="5"
+          :size="15"
         />
         <LanguageSelector />
       </div>

@@ -3,7 +3,9 @@
     <section class="flex justify-center my-5">
       <article class="prose lg:prose-xl">
         <div class="flex">
-          <div class="flex-initial w-64 ...">
+          <div
+            class="flex-initial w-64 ..."
+          >
             <div
               class="tooltip tooltip-right"
               data-tip="Diego Pérez dev"

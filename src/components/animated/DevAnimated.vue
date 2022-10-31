@@ -1,7 +1,6 @@
 <script>
 import { defineComponent, ref } from 'vue';
 import { useMotion } from '@vueuse/motion';
-import devImage from '../../assets/undraw_my_app_re_gxtj.svg'
 
 export default defineComponent({
   setup() {
