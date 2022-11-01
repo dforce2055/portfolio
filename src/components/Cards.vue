@@ -13,7 +13,7 @@
           <div
             class="h-full dark:bg-gray-600 dark:text-gray-100 bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative"
           >
-            <div class="md:p-2 p-1 w-2/2 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 duration-100">
+            <div class="md:p-2 p-1 w-2/2">
               <a
                 :href="project.demoUrl"
                 target="_blank"

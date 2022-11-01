@@ -4,7 +4,9 @@
   <footer class="text-gray-600 body-font">
     <div class="border-t border-gray-200">
       <div class="container px-5 py-8 flex flex-wrap mx-auto items-center">
-        <div class="flex md:flex-nowrap flex-wrap justify-center items-end md:justify-start">
+        <div
+          v-if="false"
+          class="flex md:flex-nowrap flex-wrap justify-center items-end md:justify-start">
           <div class="relative sm:w-64 w-40 sm:mr-4 mr-2">
             <label
               for="footer-field"

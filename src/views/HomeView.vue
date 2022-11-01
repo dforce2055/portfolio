@@ -36,10 +36,10 @@
       />
     </section>
     <section class="flex justify-center mb-5">
-      <Stats />
+      <Stats v-if="false" />
     </section>
     <section class="flex justify-center mb-5">
-      <DownloadApp />
+      <DownloadApp v-if="false" />
     </section>
   </div>
 </template>
