@@ -89,7 +89,6 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 import { themeChange } from 'theme-change'
-import { ElNotification } from 'element-plus'
 
 export default defineComponent({
   name: 'AboutView',
@@ -105,8 +104,8 @@ export default defineComponent({
   data: () => ({
     color: 'red',
     skills: [
-      { area: 'WebApps and Mobile', technologies: ['VUE', 'VUEX', 'NUXT SSR', 'REACT,', 'NEXT SSR', 'REDUX/CONTEXT', 'Gatsby', 'Strapi', 'Ionic']},
-      { area: 'UI/UX', technologies: ['Tailwind', 'ElemntUI', 'Bootstrap', 'Vuetify', 'Vuesax', 'Quasar,'] },
+      { area: 'WebApps and Mobile', technologies: ['VUE', 'VUEX', 'NUXT SSR', 'REACT', 'NEXT SSR', 'REDUX/CONTEXT', 'Gatsby', 'Strapi', 'Ionic']},
+      { area: 'UI/UX', technologies: ['Tailwind', 'ElemntUI', 'Bootstrap', 'Vuetify', 'Vuesax', 'Quasar'] },
       { area: 'API', technologies: ['REST', 'GraphQL', 'Apollo', ] },
       { area: 'Testing', technologies: ['Jest', 'SonarQube', 'Cypress', ] },
       { area: 'Server Side', technologies: ['Firebase', 'NodeJS', 'NestJS', ] },
@@ -122,14 +121,5 @@ export default defineComponent({
   async mounted() {
     themeChange(false)
   },
-  methods: {
-    open() {
-      ElNotification({
-        title: 'Prompt',
-        message: 'This is a message that does not automatically close',
-        duration: 5000,
-      })
-    }
-  }
-});
+})
 </script>

@@ -35,6 +35,17 @@
   {
     "id": 4,
     "categories": ["WebApp"],
+    "technologies": ["TypeScript", "NextJS", "React", "SSR", "Tailwind", "Vercel"],
+    "title": "Pokemon App",
+    "description": "Simple pokemon app on Vercel with NextJS React Server Side Rendering SSR.",
+    "github": "https://github.com/dforce2055/pokeapp-next",
+    "demoUrl": "https://pokemon-dforce2055.vercel.app/",
+    "imgUrl": "https://github.com/dforce2055/pokeapp-next/raw/master/public/img/demo.png",
+    "visibility": "Public"
+  },
+  {
+    "id": 5,
+    "categories": ["WebApp"],
     "technologies": ["TypeScript", "React"],
     "title": "Magic Memory Game",
     "description": "Simple Magic Memory Game with React.",
@@ -44,7 +55,7 @@
     "visibility": "Public"
   },
   {
-    "id": 5,
+    "id": 6,
     "categories": ["WebApp"],
     "technologies": ["TypeScript", "React"],
     "title": "Recipes Maganer",
