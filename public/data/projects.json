@@ -1,5 +1,16 @@
 [
   {
+    "id": 0,
+    "categories": ["WebApp"],
+    "technologies": ["TypeScript", "NextJS", "SSR", "Vercel", "Tailwind", "Shopiffy"],
+    "title": "Headless Store with Shopiffy",
+    "description": "Simple Headless Store with Shopify Next Tailwind and Vercel ",
+    "github": "https://github.com/dforce2055/headless-store-shopify-next-tailwind",
+    "demoUrl": "https://headless-store-shopify-next-tailwind.vercel.app/",
+    "imgUrl": "images/headless-store.png",
+    "visibility": "Public"
+  },
+  {
     "id": 1,
     "categories": ["WebApp"],
     "technologies": ["JavaScript", "Vue2", "Vuetify", "Firebase"],
