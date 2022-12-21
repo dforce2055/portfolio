@@ -8,15 +8,17 @@
           </h1><p class="font-general-medium mt-2 text-lg sm:text-xl xl:text-2xl text-center sm:text-left leading-none text-gray-400 px-5 lg:px-0">
             {{ $t('skills') }}
           </p>
-          <div class="flex justify-center sm:block">
+          <div>
             <a
-              download="diego-perez.resume.pdf"
-              href="data/diego-perez-resume.pdf"
-              class="flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg border border-sky-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-sky-50 focus:ring-1 focus:ring-sky-900 hover:bg-sky-500 text-gray-500 hover:text-white duration-500"
-              aria-label="Download Resume"
+              :download="currentCV.url"
+              :href="currentCV.url"
+              :aria-label="currentCV.name"
+              :data-tip="currentCV.name"
+              class="flex justify-center items-center tooltip tooltip-bottom w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg border border-sky-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-sky-50 focus:ring-1 focus:ring-sky-900 hover:bg-sky-500 text-gray-500 hover:text-white duration-500"
+              target="_blank"
             >
               <span class="text-sm sm:text-lg font-general-medium duration-100">
-                {{ $t('download-cv') }}
+                {{ $t('download-cv') }} - [{{ currentCV.lang.toUpperCase() }}]
               </span>
             </a>
           </div>
@@ -53,6 +55,8 @@ import DownloadApp from '@/components/DownloadApp.vue'
 import Stats from '@/components/Stats.vue'
 import { ElNotification } from 'element-plus'
 import {
+  CV,
+  CVs,
   LocationUI,
   Project
 } from '../types'
@@ -67,10 +71,31 @@ export default defineComponent({
   },
   data: () => ({
     error: null,
-    projects: null as unknown as Project[]
+    projects: null as unknown as Project[],
+    cv: {
+      'en': {
+        url: 'https://drive.google.com/file/d/1o931EIx_KrIMA-uD4Z9UCSQa2Q_0hokl/view?usp=share_link',
+        name: 'diego-perez-resume-[EN].pdf',
+        lang: 'en'
+      },
+      'es': {
+        url: 'https://drive.google.com/file/d/17m4GDbW9CRM4EeUZz88o2j4x42lgf4JG/view?usp=share_link',
+        name: 'diego-perez-resume-[ES].pdf',
+        lang: 'es'
+      }
+    } as CVs
   }),
   async beforeMount() {
     this.projects = await this.fetchProjects()
+  },
+  computed: {
+    currentCV() {
+      const currentLanguage: string = this.$i18n.locale as string || 'en'
+      if (currentLanguage === 'es')
+        return this.cv['es']
+      else
+        return this.cv['en']
+    }
   },
   methods: {
     onError(error: any) {

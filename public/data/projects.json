@@ -12,7 +12,7 @@
   },
   {
     "id": 2,
-    "categories": ["WebApp"],
+    "categories": ["WebApp", "Server Side App"],
     "technologies": ["TypeScript", "NextJS", "SSR", "Vercel", "Tailwind", "Shopiffy"],
     "title": "Headless Store with Shopiffy on NEXT JS",
     "description": "Simple Headless Store with Shopify Next Tailwind and Vercel ",
@@ -23,7 +23,7 @@
   },
   {
     "id": 3,
-    "categories": ["WebApp"],
+    "categories": ["WebApp", "SPA"],
     "technologies": ["JavaScript", "Vue2", "Vuetify", "Firebase"],
     "title": "Oficina Virtual",
     "description": "Simple Wather App to see and save the preferred locations and consult the weather forecasts of each city.",
@@ -34,7 +34,7 @@
   },
   {
     "id": 4,
-    "categories": ["WebApp", "iOS App"],
+    "categories": ["WebApp", "iOS App", "SPA"],
     "technologies": ["TypeScript", "Vue3", "Bootstrap v5", "Firebase"],
     "title": "FansView",
     "description": "FansView’s new video platform will give fans direct access to interview athletes after games.",
@@ -45,7 +45,7 @@
   },
   {
     "id": 5,
-    "categories": ["WebApp"],
+    "categories": ["WebApp", "SPA"],
     "technologies": ["TypeScript", "Vue3", "Tailwind", "Firebase"],
     "title": "The Local Wather",
     "description": "Simple Wather App to see and save the preferred locations and consult the weather forecasts of each city.",
@@ -56,7 +56,7 @@
   },
   {
     "id": 6,
-    "categories": ["WebApp"],
+    "categories": ["WebApp", "SPA"],
     "technologies": ["TypeScript", "NextJS", "React", "SSR", "Tailwind", "Vercel"],
     "title": "Pokemon App",
     "description": "Simple pokemon app on Vercel with NextJS React Server Side Rendering SSR.",
@@ -67,7 +67,7 @@
   },
   {
     "id": 7,
-    "categories": ["WebApp"],
+    "categories": ["WebApp", "SPA"],
     "technologies": ["TypeScript", "React"],
     "title": "Magic Memory Game",
     "description": "Simple Magic Memory Game with React.",
@@ -78,7 +78,7 @@
   },
   {
     "id": 8,
-    "categories": ["WebApp"],
+    "categories": ["WebApp", "SPA"],
     "technologies": ["TypeScript", "React"],
     "title": "Recipes Maganer",
     "description": "Now you have a place to write and save your favorite recipes.",

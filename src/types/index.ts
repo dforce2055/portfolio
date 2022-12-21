@@ -161,3 +161,12 @@ export interface Minutely {
   dt:            number;
   precipitation: number;
 }
+export interface CV {
+  url:            string;
+  name:           string;
+  lang:           string;
+}
+export interface CVs {
+  es:            CV;
+  en:            CV;
+}
