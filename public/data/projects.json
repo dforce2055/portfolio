@@ -2,6 +2,17 @@
   {
     "id": 0,
     "categories": ["WebApp", "Server Side App"],
+    "technologies": ["TypeScript", "NuxtJS", "SSR", "Vercel", "Tailwind", "Cloudinary", "Prisma", "MongoDB"],
+    "title": "My home brew Twitter Clone with NUXT 3",
+    "description": "Simple Social Network like a Twitter clone with Nuxt 3, Tailwind, Cloudinary, Auth, Prisma ORM, Mongo DB",
+    "github": "https://github.com/dforce2055/twitter-clone",
+    "demoUrl": "https://twitter-clone-dforce2055.vercel.app",
+    "imgUrl": "images/twitter-clone.jpg",
+    "visibility": "Public"
+  },
+  {
+    "id": 1,
+    "categories": ["WebApp", "Server Side App"],
     "technologies": ["TypeScript", "NuxtJS", "SSR", "Netlify", "Tailwind", "Shopiffy"],
     "title": "Headless Store with Shopiffy on NUXT 3",
     "description": "Simple Headless Store with Shopify Nuxt 3 Tailwind  ",

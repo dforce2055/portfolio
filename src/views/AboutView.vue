@@ -12,7 +12,7 @@
             >
               <img
                 class="mask mask-parallelogram"
-                src="https://media-exp1.licdn.com/dms/image/C4E03AQG2Ea54fmbB7w/profile-displayphoto-shrink_800_800/0/1576419722058?e=1672876800&v=beta&t=YETnR8kxHuwpOuG0LvPo9YYGVN3r00c-bV5aKs8eWj8"
+                src="/images/profile.png"
               >
             </div>
           </div>
