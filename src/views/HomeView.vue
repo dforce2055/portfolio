@@ -74,12 +74,12 @@ export default defineComponent({
     projects: null as unknown as Project[],
     cv: {
       'en': {
-        url: 'https://drive.google.com/file/d/1o931EIx_KrIMA-uD4Z9UCSQa2Q_0hokl/view?usp=share_link',
+        url: 'https://drive.google.com/file/d/1yPzS0XwN0K1xws8XCjlFpcTLcf3Fs_n4/view?usp=sharing',
         name: 'diego-perez-resume-[EN].pdf',
         lang: 'en'
       },
       'es': {
-        url: 'https://drive.google.com/file/d/17m4GDbW9CRM4EeUZz88o2j4x42lgf4JG/view?usp=share_link',
+        url: 'https://drive.google.com/file/d/1vVg3WsvWl45dOQavwOxFWURB-iY9IP3G/view?usp=sharing',
         name: 'diego-perez-resume-[ES].pdf',
         lang: 'es'
       }
