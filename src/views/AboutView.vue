@@ -114,7 +114,7 @@ export default defineComponent({
       { area: 'Preferred language', technologies: ['JavaScript', 'TypeScript' ] },
     ],
     socialsMedia: [
-      { name: 'Linkedin', icon: 'linkedin', url: 'https://www.linkedin.com/in/diego-p%C3%A9rez-22180a142/'},
+      { name: 'Linkedin', icon: 'linkedin', url: 'https://www.linkedin.com/in/diego-perez-2055-arg/'},
       { name: 'Github', icon: 'github', url: 'https://github.com/dforce2055'},
     ]
   }),

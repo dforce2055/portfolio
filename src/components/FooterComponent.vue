@@ -50,7 +50,7 @@
         <p class="text-gray-500 text-sm text-center sm:text-left">
           © {{ new Date().getFullYear() }} dforce2055 —
           <a
-            href="https://www.linkedin.com/in/diego-p%C3%A9rez-22180a142/"
+            href="https://www.linkedin.com/in/diego-perez-2055-arg/"
             class="text-gray-600 ml-1 dark:text-primary"
             target="_blank"
             rel="noopener noreferrer"
@@ -76,7 +76,7 @@ export default defineComponent({
   },
   data: () => ({
     socialsMedia: [
-      { name: 'Linkedin', icon: 'linkedin', url: 'https://www.linkedin.com/in/diego-p%C3%A9rez-22180a142/'},
+      { name: 'Linkedin', icon: 'linkedin', url: 'https://www.linkedin.com/in/diego-perez-2055-arg/'},
       { name: 'Github', icon: 'github', url: 'https://github.com/dforce2055'},
     ]
   }),

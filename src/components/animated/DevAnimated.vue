@@ -780,7 +780,7 @@ export default defineComponent({
       >https://undraw.co/</a>
       animated by
       <a
-        href="https://www.linkedin.com/in/diego-p%C3%A9rez-22180a142/"
+        href="https://www.linkedin.com/in/diego-perez-2055-arg/"
         target="_blank"
         class="text-primary"
       >@dforce2055</a>
